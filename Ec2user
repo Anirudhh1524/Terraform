@@ -1,0 +1,11 @@
+resource "ec2_user" "u1" {
+    name = "irise"
+}
+resource "ec2_user" "u2" {
+    name = "aws"
+  
+}
+resource "ec2_user" "u3" {
+    name = "github"
+  
+}
