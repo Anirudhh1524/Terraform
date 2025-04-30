@@ -1,0 +1,17 @@
+resource "aws_iam_user" "U1" {
+    name = "aniruddh"
+  }
+
+  resource "aws_iam_user" "u2" {
+    name = "kalusing"
+    
+  }
+
+  resource "aws_iam_user" "u3" {
+    name = "rushikesh"
+    
+  }
+  resource "aws_iam_group" "g1" {
+    name = "friends"
+    
+  }
